@@ -81,7 +81,7 @@ CREATE INDEX tweet_tags_index ON tweet_tags(id_tweets);
 
 CREATE TABLE tweet_media (
     id_tweets BIGINT,
-    urls TEXT,
+    url TEXT,
     type TEXT,
 );
 
